@@ -101,7 +101,7 @@ header {}
     width: 100%;
     height: auto;
     position: absolute;
-    top:0;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -109,20 +109,20 @@ header {}
 }
 
 .home-banner-container:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -50%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  -webkit-transform-origin: 100% 0;
-  -ms-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-  -webkit-transform: skew(-45deg);
-  -ms-transform: skew(-45deg);
-  transform: skew(-45deg);
-  z-index: -1;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: skew(-45deg);
+    -ms-transform: skew(-45deg);
+    transform: skew(-45deg);
+    z-index: -1;
 }
 
 #home-banner-left {
@@ -151,14 +151,19 @@ header {}
     align-self: center;
     order: 2;
     flex-grow: 1;
-    border: 5px solid #202020;
     background-color: #333;
-     margin-right: 20px;
+    border: 5px solid #202020;
+    margin-right: 20px;
+}
+
+hr {
+    height: 5px;
+    background-color: #202020;
+    border: none;
 }
 
 .home-banner-content {
     color: #fff;
-    border-bottom: 5px solid #202020;
     display: grid;
     grid-template-columns: 50px 1fr;
     padding: 40px 20px;
@@ -189,24 +194,3 @@ header {}
 
 
 /*  END HOME PAGE */
-
-/*  NAME FOOTER  */
-footer {}
-
-/*  END FOOTER  */
-
-@media screen and (max-width:1200px) {
-    .desktop {}
-}
-
-@media screen and (max-width:992px) {
-    .tablet {}
-}
-
-@media screen and (max-width:768px) {
-    .tablet {}
-}
-
-@media screen and (max-width: 576px) {
-    .mobile {}
-}
