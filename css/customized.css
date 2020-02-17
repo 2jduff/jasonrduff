@@ -132,6 +132,11 @@ header {}
     text-align: center;
 }
 
+#home-banner-left a {
+    text-decoration: none;
+    color: #fff;
+}
+
 #home-banner-left h1 {
     font-size: 50px;
     line-height: 55px;
