@@ -124,6 +124,7 @@ body {
     order: 1;
     flex-grow: 1;
     text-align: center;
+    width: 60%;
 }
 
 #home-banner-left a {
