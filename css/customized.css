@@ -1,11 +1,10 @@
-/* NAME Template */
+/* Jason Duff */
 
 /* colors:
-    Background #efefef;
-    Border #cecece;
-    Text #202020;
-    Text Hover #ababab;
-    Focus #808080;
+    Background #1372A1;
+    Banner Background #333;
+    Border #202020;
+    Text #fff;
 */
 
 /* fonts available */
@@ -85,11 +84,6 @@ body {
 }
 
 /* end global */
-
-/*  NAME HEADER  */
-header {}
-
-/*  END HEADER  */
 
 /*  NAME HOME PAGE  */
 .home-banner-container {
@@ -192,5 +186,15 @@ hr {
     padding-left: 20px;
 }
 
-
 /*  END HOME PAGE */
+
+
+@media screen and (max-width: 576px) {
+    .home-banner-container:before {
+    background-color: #1372A1;
+    }
+    #home-banner-right {
+        width: 100%;
+        margin-right: 0px;
+    }
+}
