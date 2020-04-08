@@ -195,7 +195,10 @@ hr {
 
 
 @media screen and (max-width: 1024px) {
-
+    p {
+        font-size: 30px;
+    }
+    
     #home-banner-right,
     #home-banner-left {
         width: 100%;
