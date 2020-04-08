@@ -194,12 +194,19 @@ hr {
 /*  END HOME PAGE */
 
 
-@media screen and (max-width: 576px) {
-    .home-banner-container:before {
-    background-color: #1372A1;
-    }
-    #home-banner-right {
+@media screen and (max-width: 1024px) {
+
+    #home-banner-right,
+    #home-banner-left {
         width: 100%;
-        margin-right: 0px;
+        margin: 0px 20px;
+    }
+
+    .home-banner-content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .home-banner-content div:first-of-type {
+        text-align: right;
     }
 }
