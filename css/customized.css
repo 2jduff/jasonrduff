@@ -125,6 +125,7 @@ header {
 #mainnav-container ul li a {
     text-decoration: none;
     color: #202020;
+    font-size: 22px;
 }
 
 /*  END HEADER  */
