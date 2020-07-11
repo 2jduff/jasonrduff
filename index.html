@@ -4,38 +4,184 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link type="text/css" rel="stylesheet" href="css/customized.css" />
-    <title>Jason Duff | Front End Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="css/customized.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://use.fontawesome.com/59db27d8b6.js"></script>
+    <script src="script/layout.js"></script>
+    <title>Jason Duff | Portfolio</title>
     <link rel="icon" type="image/png" href="css/images/jd.png">
 </head>
-<main>
-    <section>
-        <div class="home-banner-container">
-            <div id="home-banner-left">
-                <a href="http://jasonrduff.com/">
-                    <h1>Jason Duff
-                </a></h1>
-                <p>Front End Designer</p>
-                </a>
+<!--  template name HEADER  -->
+<header>
+    <div id="header">
+        <div id="header-container" class="grid-container">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="/"><img src="css/images/jd.png" width="100" height="100" alt="Jason Duff"></a>
+                </div>
             </div>
-            <div id="home-banner-right">
-                <div class="home-banner-content">
-                    <ul>
-                        <li><a href="/"><i class="material-icons">house</i><span>15025 Redwood Valley Ln.<br /> Charlotte, NC 28277</span></a><div class="clear"></div>
-                        </li>
-                        <li><a href="tel:+1-704-352-5777"><i class="material-icons">phone</i><span>704-352-5777</span></a><div class="clear"></div>
-                        </li>
-                        <li><a href="mailto:2jduff@gmail.com"><i class="material-icons">email</i><span>2jduff@gmail.com</span></a><div class="clear"></div>
-                        </li>
-                        <li><a href="https://2jduff.github.io/portfolio/"><i class="material-icons">important_devices</i><span>Portfolio</span></a><div class="clear"></div>
-                        </li>
-                        <li><a href="Jason Duff Resume.pdf"><i class="material-icons">assignment</i><span>Resum&#233;</span></a><div class="clear"></div>
-                        </li>
-                    </ul>
+            <div class="header-middle">
+                <p></p>
+            </div>
+            <div class="header-right">
+                <div id="mainnav">
+                    <nav id="mainnav-container">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#bio">Bio</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="clear"></div>
+</header>
+<!--  END HEADER  -->
+<!-- Jason Duff HOMEPAGE  -->
+<main>
+    <section id="home">
+        <div class="home-text">
+            <h1>Jason Duff</h1>
+            <h2><em>Front End Web Design</em></h2>
+        </div>
+        <div>
+            <img src="css/images/jason-hero.jpg" width="610" height="404" alt="I code" />
+        </div>
     </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container hide-on-mobile">
+            <div>
+                <img src="css/images/eldorado.png" width="400" height="400" alt="Eldorado Template" />
+            </div>
+            <div style="background-color: #ccc;height: 100%;">
+                <p><span>Daytona</span><br />
+                    <a href="https://2jduff.github.io/Daytona/" target="_blank">View Here</a></p>
+            </div>
+            <div>
+                <img src="css/images/buffalo.png" width="400" height="400" alt="Buffalo Template" />
+            </div>
+            <div style="background-color: #ccc;height: 100%;">
+                <p><span>Michigan</span><br />
+                    <a href="https://2jduff.github.io/Michigan/" target="_blank">View Here</a></p>
+            </div>
+            <div style="background-color: #ccc;height: 100%;">
+                <p><span>Eldorado</span><br />
+                    <a href="https://2jduff.github.io/Eldorado/" target="_blank">View Here</a></p>
+            </div>
+            <div>
+                <img src="css/images/daytona.png" width="400" height="400" alt="Daytona Template" />
+            </div>
+            <div style="background-color: #ccc;height: 100%;">
+                <p><span>Buffalo</span><br />
+                    <a href="https://2jduff.github.io/Buffalo/" target="_blank">View Here</a></p>
+            </div>
+            <div>
+                <img src="css/images/michigan.png" width="400" height="400" alt="Michigan Template" />
+            </div>
+        </div>
+        <div class="projects-container hide-on-desktop hide-on-tablet">
+            <div>
+                <img src="css/images/eldorado.png" width="500" height="500" alt="Eldorado Template" />
+            </div>
+            <div style="background-color: #ccc;height: 100%;">
+                <p><span>Eldorado</span><br />
+                    <a href="https://2jduff.github.io/Eldorado/" target="_blank">View Here</a></p>
+            </div>
+            <div style="background-color: #ccc;height: 100%;">
+                <p><span>Daytona</span><br />
+                    <a href="https://2jduff.github.io/Daytona/" target="_blank">View Here</a></p>
+            </div>
+            <div>
+                <img src="css/images/daytona.png" width="500" height="500" alt="Daytona Template" />
+            </div>
+            <div>
+                <img src="css/images/buffalo.png" width="500" height="500" alt="Buffalo Template" />
+            </div>
+            <div style="background-color: #ccc;height: 100%;">
+                <p><span>Buffalo</span><br />
+                    <a href="https://2jduff.github.io/Buffalo/" target="_blank">View Here</a></p>
+            </div>
+            <div style="background-color: #ccc;height: 100%;">
+                <p><span>Michigan</span><br />
+                    <a href="https://2jduff.github.io/Michigan/" target="_blank">View Here</a></p>
+            </div>
+            <div>
+                <img src="css/images/michigan.png" width="500" height="500" alt="Michigan Template" />
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div>
+            <p>Jason Duff | 704-352-5777 | Charlotte, NC<br />
+            <a href="css/images/Jason Duff Resume.pdf" target="_blank">Resum&#233;</a></p>
+        </div>
+    </section>
+    <section id="bio">
+        <div class="hide-on-mobile" data-aos="slide-right">
+            <img src="css/images/jason-bio.jpg" width="601" height="406" alt="I code" />
+        </div>
+        <div class="bio-text">
+            <h2>Jason Duff</h2>
+            <br />
+            <p><em>I am a front end developer with experience in HTML, CSS, JQuery, Javascript, Angular and Adobe XD.</em></p>
+            <br />
+            <p>As a passionate and motivated professional, I’m constantly striving to improve my techniques, expand my skill set and find new opportunities to grow. Each of my projects - both solo and collaborative - have provided this growth and allowed me to establish myself within this competitive industry. Please enjoy my portfolio, and feel free to get in touch with any questions.</p>
+        </div>
+    </section>
+    <div class="clear"></div>
 </main>
 <!-- END HOMEPAGE  -->
+<!--  template name FOOTER  -->
+<footer>
+    <div id="footer">
+        <div id="footer-container" class="grid-container">
+            <div class="footer-left">
+            </div>
+            <div class="footer-middle">
+                <p>&copy; <script>
+                    document.write(new Date().getFullYear())
+                    </script> Jason Duff | Prowdly Created by JRD Web Design</p>
+            </div>
+            <div class="footer-right">
+            </div>
+        </div>
+    </div>
+    <div id="scroll-div">
+        <a href="javascript:void(0)" class="scroll-to-top"><i class="fa fa-chevron-circle-up fa-3x"><span class="hidden">Back to Top</span></i></a>
+    </div>
+    </div>
+</footer>
+<!-- END FOOTER  -->
+<script>
+AOS.init();
+$(document).ready(function() {
+});
+
+//Check to see if the window is top if not then display button
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+        $('.scroll-to-top').fadeIn();
+    } else {
+        $('.scroll-to-top').fadeOut();
+    }
+});
+
+//Click event to scroll to top
+$('.scroll-to-top').click(function() {
+    $('html, body').animate({ scrollTop: 0 }, 800);
+    return false;
+});
+</script>
